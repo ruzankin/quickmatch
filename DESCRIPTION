@@ -1,0 +1,15 @@
+Package: quickmatch
+Title: What the Package Does (One Line, Title Case)
+Version: 0.8
+Authors@R: 
+    person(given = "Pavel",
+           family = "Ruzankin",
+           role = c("aut", "cre"),
+           email = "ruzankin@math.nsc.ru",
+           comment = c(ORCID = "0000-0002-5262-3037"))
+Description: What the package does (one paragraph).
+License: use_gpl3_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
