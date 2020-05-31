@@ -30,9 +30,9 @@
 #' @return\code{num_pairs}:   vector of length total.matches showing the number of
 #'              controls matched to each treated object. \code{num_pairs[j]}
 #'              corresponds to the j-th row of match.matrix.
-#' @return\code{discarded.t}:   vector of the numbers (positions in x)
+#' @return\code{discarded.t}:   vector of the numbers (positions in \code{x})
 #'                of treated objects which are not matched.
-#' @return\code{discarded.c}:   vector of the numbers (positions in x)
+#' @return\code{discarded.c}:   vector of the numbers (positions in \code{x})
 #'                of control objects which are not matched.
 #' @return\code{total.matches}:  the number of matched treated objects, which is the
 #'                  number of rows in match.matrix.
@@ -40,7 +40,8 @@
 #'                number of non-NA elements in columns \code{2:(controls+1)}
 #'                of match.matrix
 #'
-#'@author Pavel S. Ruzankin,  
+#'@author Pavel S. Ruzankin
+#'@author Marina V. Muravleva
 #'
 #'@references
 #' P.S. Ruzankin (2019). A fast algorithm for maximal propensity score matching.

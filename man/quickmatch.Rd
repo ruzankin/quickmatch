@@ -39,10 +39,10 @@ cols (k+2):(controls+1) are filled with integer NAs.
 controls matched to each treated object. \code{num_pairs[j]}
 corresponds to the j-th row of match.matrix.
 
-\code{discarded.t}:   vector of the numbers (positions in x)
+\code{discarded.t}:   vector of the numbers (positions in \code{x})
 of treated objects which are not matched.
 
-\code{discarded.c}:   vector of the numbers (positions in x)
+\code{discarded.c}:   vector of the numbers (positions in \code{x})
 of control objects which are not matched.
 
 \code{total.matches}:  the number of matched treated objects, which is the
@@ -68,5 +68,7 @@ P.S. Ruzankin (2019). A fast algorithm for maximal propensity score matching.
 \emph{Methodol Comput Appl Probab}. \url{https://doi.org/10.1007/s11009-019-09718-4}
 }
 \author{
-Pavel S. Ruzankin,
+Pavel S. Ruzankin
+
+Marina V. Muravleva
 }
